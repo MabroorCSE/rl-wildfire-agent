@@ -1,0 +1,21 @@
+{
+  "scenario": {
+    "shape": [100, 100], "origin": [-24, -24]
+  },
+  "cells": {
+    "default": {
+      "delay": "inertial",
+      "model": "fire",
+      "state": {"status": 0, "timer": 0},
+      "config": {"burn": 2},
+      "neighborhood": [
+        {"type": "von_neumann", "vicinity": 1, "range": 2},
+        {"type": "relative", "vicinity": 1, "neighbors": [[0, 0]]}
+      ]
+    },
+    "ignition": {
+      "state": {"status": 1, "timer": 3},
+      "cell_map": [[12, 12]]
+    }
+  }
+}
