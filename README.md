@@ -10,7 +10,7 @@ This repo starts with the foundations: neural networks, classic RL algorithms, a
 |---|---|---|
 | `01_neural_networks` | FFN and CNN on MNIST, plus a hand-written graph neural network (GCN) predicting fire spread on a toy graph | Done |
 | `02_gymnasium` | First look at Gymnasium: Frozen Lake intro, Minigrid exploration | Done |
-| `03_rl_algorithms` | Q-learning, REINFORCE and PPO from scratch on slippery Frozen Lake | Done, PPO tuning pending |
+| `03_rl_algorithms` | Q-learning, REINFORCE and PPO from scratch on slippery Frozen Lake | Done |
 | `04_cadmium` | Cell-DEVS logs visualized in Python, a toy fire-spread Cell-DEVS model and a toy atomic model in C++ | Done |
 | `05_rl_cadmium` | RL agent controlling fire suppression in Cadmium | Next |
 
